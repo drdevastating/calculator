@@ -1,0 +1,69 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+}
+.heading{
+    font-weight: bold;
+    font-size: 48px;
+}
+.calculator{
+    width: 600px;
+    height: 800px;
+    background-color:navy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+.display{
+    width: 500px;
+    height: 150px;
+    background-color: gray;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-size: 36px;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.row1, .row2, .row3, .row4{
+    display: flex;
+    gap: 20px;
+}
+button{
+    cursor: pointer;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    font-size: 30px;
+}
+.delete{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.delete button{
+    color: white;
+    width: 160px;
+    height: 80px;
+    font-size: 30px;
+    border-radius: 16px;
+    background-color: deeppink;
+}
+button:hover{
+    background-color: aqua;
+}
+.output{
+    color: greenyellow;
+    font-size: 48px;
+}
